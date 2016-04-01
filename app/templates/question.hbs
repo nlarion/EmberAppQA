@@ -5,6 +5,5 @@
 {{new-answer submitAnswer="submitAnswer" questionId=model.id question=model}}
 {{#each model.answers as |answer|}}
   {{answer-list answer=answer}}
-  <button class="btn btn-info btn-xs">Reply</button>
   <button class="btn btn-danger btn-xs" {{action 'deleteAnswer' answer}}>Delete</button>
 {{/each}}

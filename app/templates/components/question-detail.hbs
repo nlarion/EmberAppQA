@@ -1,5 +1,7 @@
-Date posted: {{question.date}}<br>
-Category: {{question.tag}}<br>
-Up Votes: {{question.upVotes}}<br>
-Down Votes: {{question.downVotes}}<br>
-<button {{action 'delete' question}}>Delete Question</button>
+<div class="questionPage">
+  Date posted: {{question.date}}<br>
+  Category: {{question.tag}}<br>
+  Up Votes: {{question.upVotes}}<br>
+  Down Votes: {{question.downVotes}}<br>
+</div>
+<button {{action 'delete' question}} class="btn btn-danger">Delete Question</button>
