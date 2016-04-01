@@ -1,35 +1,39 @@
-{ "questions": [{
-    "id": 1,
-    "question": "How many licks does it take to get to the center of a tootsie pop?",
-    "author": "smallkid",
-    "date": "2016/04/01",
-    "notes": "1.. 2.. 3..",
-    "upVotes": 30,
-    "downVotes": 15
+{
+  "answers" : [ {
+    "answer" : "1... 2... 3... the answer is 3",
+    "author" : "smallkid",
+    "date" : "2016/04/01",
+    "downVotes" : 15,
+    "notes" : "1.. 2.. 3..",
+    "question" : 1,
+    "upVotes" : 30
   }, {
-    "id": 2,
-    "question": "Where do babies come from?",
-    "author": "smallkid",
-    "date": "2016/04/01",
-    "notes": "notes",
-    "upVotes": 50,
-    "downVotes": 15
-  }],
-  "answers": [{
-    "question": 1,
-    "answer": "1... 2... 3... the answer is 3",
-    "author": "smallkid",
-    "date": "2016/04/01",
-    "notes": "1.. 2.. 3..",
-    "upVotes": 30,
-    "downVotes": 15
-  }, {
-    "question": 2,
-    "answer": "Ask your parents",
-    "author": "smallkid",
-    "date": "2016/04/01",
-    "notes": "notes",
-    "upVotes": 30,
-    "downVotes": 15
-  }]
+    "answer" : "Ask your parents",
+    "author" : "smallkid",
+    "date" : "2016/04/01",
+    "downVotes" : 15,
+    "notes" : "notes",
+    "question" : 2,
+    "upVotes" : 30
+  } ],
+  "questions" : {
+    "-KEIPWoiwJ2-uKkX4QP3" : {
+      "author" : "small kid",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "notes" : "",
+      "tag" : "stupid",
+      "theQuestion" : "How many licks does it take to get to the center of a tootsie pop?",
+      "upVotes" : 0
+    },
+    "-KEIPf3E_bQUOEEdEfhV" : {
+      "author" : "some kid",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "notes" : "also is it made of cheese?",
+      "tag" : "stupid",
+      "theQuestion" : "How big is Japan?",
+      "upVotes" : 0
+    }
+  }
 }

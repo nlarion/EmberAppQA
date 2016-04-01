@@ -1,2 +1,7 @@
-<li>Question: {{question.question}} Author: {{question.author}} date: {{question.date}} notes: {{question.notes}} upVotes: {{question.upVotes}} downVotes: {{question.downVotes}}</li>
-<!-- {{#link-to 'question' question.id}}Read more{{/link-to}} -->
+<li>Question: {{question.theQuestion}} {{#link-to 'question' question.id}}Read more{{/link-to}}
+  <ul>
+    <li>Author: {{question.author}} </li>
+    <li>upVotes: {{question.upVotes}} </li>
+    <li>downVotes: {{question.downVotes}}</li>
+  </ul>
+</li>

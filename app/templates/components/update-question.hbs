@@ -1,15 +1,15 @@
-{{#if newQuestion}}
-  <h1>New Entry</h1>
+{{#if updateQuestionForm}}
+  <h3>Update {{question.author}}'s {{question.theQuestion}} question</h3>
     <div>
       <form>
         <div class="form-group">
           <label for="question">Question:</label><br>
-          {{input value=theQuestion id="theQuestion"}}
+          {{input value=theQuestion id="theQuestion" placeholder=question.theQuestion}}
         </div>
 
         <div class="form-group">
           <label for="author">Author:</label><br>
-          {{input value=author id="author"}}
+          {{input value=author id="author" placeholder=question.author}}
         </div>
 
         <div class="form-group">
@@ -24,12 +24,12 @@
 
         <div class="form-group">
           <label for="notes">Notes</label><br>
-          {{textarea value=notes id="notes"}}
+          {{textarea value=notes id="notes" placeholder=question.notes}}
         </div>
 
-        <button class="btn btn-primary"{{action 'submitQuestion'}}>Submit</button>
+        <button class="btn btn-primary"{{action 'update' question}}>Save</button>
       </form>
     </div>
 {{else}}
-    <button class="btn btn-primary" {{action 'showQuestionForm'}}>New Question</button>
+    <button class="btn btn-primary" {{action 'updateQuestionForm'}}>Update Question</button>
 {{/if}}
