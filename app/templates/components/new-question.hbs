@@ -1,0 +1,35 @@
+{{#if newQuestion}}
+  <h1>New Entry</h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="question">Question:</label><br>
+          {{input value=question id="question"}}
+        </div>
+
+        <div class="form-group">
+          <label for="author">Author:</label><br>
+          {{input value=author id="author"}}
+        </div>
+
+        <div class="form-group">
+        <label for="dropdown">Category:</label><br>
+        {{#x-select value=dropdown}}
+          {{#x-option value="stupid"}}Stupid{{/x-option}}
+          {{#x-option value="tech"}}Technology{{/x-option}}
+          {{#x-option value="games"}}Video Games{{/x-option}}
+          {{#x-option value="code"}}Coding{{/x-option}}
+        {{/x-select}}
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Notes</label><br>
+          {{textarea value=notes id="notes"}}
+        </div>
+
+        <button class="btn btn-primary"{{action 'submitQuestion'}}>Submit</button>
+      </form>
+    </div>
+{{else}}
+    <button class="btn btn-primary" {{action 'showQuestionForm'}}>New Question</button>
+{{/if}}
