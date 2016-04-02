@@ -1,7 +1,22 @@
-# Ember-app-qa
+# EmberAppQA
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+####This is a website for a question and answer message board.
+####By: Neil Larion
+
+## Description
+
+###This is a project that allows the user can submit a question(s) and then that or other users can submit an answer to said question. It also meets the following criteria:
+* Questions have the content of the question itself, an author and additional notes.
+* Answers have the content of the answer and the author.
+* The header appears on all pages containing the name of the site and a link to the home page.
+* All questions are listed on the homepage, with only the question and the name of the author showing.
+* Users can click a question to few additional information
+* Site allows users to add and edit questions.
+* Site allows users to add answers to a question.
+
+#### This is an app built with the Ember framework
+
+This project was developed during a "Code Review" session at Epicodus, which is a solo project designed to test our knowledge of the materials learned over the previous week's study. It's an honor to be apart of a coding community where people are genuinely interested in what they're doing.
 
 ## Prerequisites
 
@@ -39,15 +54,21 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Support and contact details
+* http://www.neillarion.com
+* neil.larion@gmail.com
+* [@nlarion](https://twitter.com/nlarion)
 
-Specify what it takes to deploy your app.
+## Technologies Used
+* Gulp
+* npm
+* Bower
+* JavaScript
+* Bootstrap
+* Ember
+* HTML
+* CSS
 
-## Further Reading / Useful Links
+### License
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+This work is licensed under a [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/) 2016
