@@ -1,0 +1,6 @@
+{{#each model as |question|}}
+  {{#if (searchTags question 'code')}}
+    {{question-tile question=question}}
+    <hr>
+  {{/if}}
+{{/each}}

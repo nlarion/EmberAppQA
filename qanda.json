@@ -1,38 +1,101 @@
 {
-  "answers" : [ {
-    "answer" : "1... 2... 3... the answer is 3",
-    "author" : "smallkid",
-    "date" : "2016/04/01",
-    "downVotes" : 15,
-    "notes" : "1.. 2.. 3..",
-    "question" : 1,
-    "upVotes" : 30
-  }, {
-    "answer" : "Ask your parents",
-    "author" : "smallkid",
-    "date" : "2016/04/01",
-    "downVotes" : 15,
-    "notes" : "notes",
-    "question" : 2,
-    "upVotes" : 30
-  } ],
-  "questions" : {
-    "-KEIPWoiwJ2-uKkX4QP3" : {
-      "author" : "small kid",
+  "answers" : {
+    "-KEJ2MQftqtfSnbwTzdU" : {
+      "author" : "Yoshi",
       "date" : "Fri Apr 01 2016",
       "downVotes" : 0,
-      "notes" : "",
-      "tag" : "stupid",
-      "theQuestion" : "How many licks does it take to get to the center of a tootsie pop?",
+      "question" : "-KEIPf3E_bQUOEEdEfhV",
+      "theAnswer" : "Really Big",
       "upVotes" : 0
     },
+    "-KEJ2Q3cAaK5fGPZousg" : {
+      "author" : "Tim",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "question" : "-KEIPf3E_bQUOEEdEfhV",
+      "theAnswer" : "About the size of California",
+      "upVotes" : 0
+    },
+    "-KEJ5YJuT6hAlUp3guOo" : {
+      "author" : "ok",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "question" : "-KEIPf3E_bQUOEEdEfhV",
+      "theAnswer" : "test",
+      "upVotes" : 0
+    },
+    "-KEJFK3cMc3JQ9CiTdlW" : {
+      "author" : "ted",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "question" : "-KEJFGoOxBo-o_YIkF3D",
+      "theAnswer" : "mario",
+      "upVotes" : 0
+    },
+    "-KEJFSxuAXzdT7NcVVo5" : {
+      "author" : "neil",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "question" : "-KEJFPYJeMsa7YZPGBvq",
+      "theAnswer" : "ember g helper helper-name",
+      "upVotes" : 0
+    }
+  },
+  "questions" : {
     "-KEIPf3E_bQUOEEdEfhV" : {
+      "answers" : {
+        "-KEJ2MQftqtfSnbwTzdU" : true,
+        "-KEJ2Q3cAaK5fGPZousg" : true,
+        "-KEJ5YJuT6hAlUp3guOo" : true
+      },
       "author" : "some kid",
       "date" : "Fri Apr 01 2016",
       "downVotes" : 0,
       "notes" : "also is it made of cheese?",
       "tag" : "stupid",
       "theQuestion" : "How big is Japan?",
+      "upVotes" : 0
+    },
+    "-KEJ2EtDgg-fdZCI_HEH" : {
+      "author" : "Neil",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "notes" : "lololol",
+      "tag" : "stupid",
+      "theQuestion" : "How many licks does it take to get to the center of a tootsie pop",
+      "upVotes" : 0
+    },
+    "-KEJ82Xoa_-7Xe4FQx7q" : {
+      "author" : "Neil",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "notes" : "Like is it over and junk?",
+      "tag" : "tech",
+      "theQuestion" : "Is moore's law dead?",
+      "upVotes" : 0
+    },
+    "-KEJFGoOxBo-o_YIkF3D" : {
+      "answers" : {
+        "-KEJFK3cMc3JQ9CiTdlW" : true
+      },
+      "author" : "Bob",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "notes" : "Any system any gen",
+      "tag" : "games",
+      "theQuestion" : "What's the best video game ever?",
+      "upVotes" : 0
+    },
+    "-KEJFPYJeMsa7YZPGBvq" : {
+      "answers" : {
+        "-KEJFSxuAXzdT7NcVVo5" : true
+      },
+      "author" : "Neil",
+      "date" : "Fri Apr 01 2016",
+      "downVotes" : 0,
+      "notes" : "",
+      "tag" : "code",
+      "theQuestion" : "How do you add helpers in ember?",
       "upVotes" : 0
     }
   }
